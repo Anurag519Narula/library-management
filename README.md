@@ -23,3 +23,17 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/library-management-system.git
+   ```
+2. Sign-up for Mongo-atlas.
+3. Get your connection string and paste in .env file
+   ```bash
+   MONGO_URL = Your-connection string
+   ```
+4. Install the dependencies
+   ```bash
+   npm install
+   ```
+5. Run the development server.
+   ``bash
+   npm run dev
+   ```
